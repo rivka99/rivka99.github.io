@@ -1,0 +1,73 @@
+img{ 
+	width: 40%;
+}
+#pic { 
+	width: 20%;
+}
+
+li { 
+	color: #D1A3FF;
+}
+h1 { 
+ color:LightSteelBlue ;
+
+ }
+ #anotherc{
+  color:#99BFB2 ;
+  text-align:center;
+  }
+
+#meabout {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	color: Cadetblue;
+	margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 500px;
+    position: relative;
+    bottom: 340px;
+	/*top:-340; */
+    right: 16px;
+    font-size: 28px;
+	border-style: groove;
+    border-color:yellow;
+	background-color: GoldenRod ;
+}
+
+#fpara {
+	position: relative;
+	bottom: 300px;
+}
+#halfweb{
+	position: relative;
+	bottom: 300px;
+}
+#bye{
+position: relative;
+	bottom: -500px;
+	right:180px;
+	width: 30%;
+}
+	
+body {
+    background-color: #801A33 ;
+	font-size:200%;
+	
+}
+#glogo {
+position: relative;
+	left:300px;
+	border-style: groove;
+    border-color:blue;
+}
+iframe {
+position: relative;
+	left:300px;
+}
+
+
+/*12.relative {
+  position: relative;
+  // left: 100px;
+  //  border: 3px solid #73AD21;
+}*/

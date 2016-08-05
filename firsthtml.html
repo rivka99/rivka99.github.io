@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+		
+	<head>
+	<title>Rivkas GWC </title>
+	<link rel="stylesheet" href="firstdo.css">
+	<script src="firstsnew.js"> </script>	
+	</head>
+	
+	<body>
+	
+		<h1> MY Girls Who Code Experience <3</h1> 
+		<div id="aboutme">	
+	    <button id="nextpic2" onclick="nextpic2()">Back </button>
+		<img id="pic" src="https://scontent.xx.fbcdn.net/v/t1.0-0/p206x206/12190093_10206812760269312_1767059341676305152_n.jpg?oh=88155ebeda3b285be9560aa2f8630f47&oe=581775F0" alt="a picture of me" 
+		>
+		<button id="nextpic" onclick="nextpic()">Next Picture </button>
+		<p id="meabout"> I am Rivka, a high school student who loves to code. I go to Bnos Chomesh Academy, which is a Jewish girls high school in Brooklyn. Being at Girls Who Code was one of the greatest and eye opening experiences of my life. 
+		</p>
+	</div>
+		<p id = "fpara" style = "color:Plum "> Girls Who Code is a really awesome organization you can check it out if you click the logo below.
+		<div id="halfweb"> </p>		
+				<a href = "https://girlswhocode.com/" target="_blank" > 
+				<img id="glogo"src ="gwclogo.PNG" alt="Girls Who Code logo ">  </a>
+		<div id="anotherc"> <h3> My GWC projects </h3>
+		<p> There were many projects I did throughout the duration of the program, I listed a few of them below.
+		</div>
+		<ul> 
+		<li> Runner Game: a game that required a code that allowed an image to follow the curser around the screen, and collect objects to pick up points. I coded this game using python.
+		<img 
+		src ="project4p.PNG" alt="The runner game project "> 
+		</li>
+		
+		<li>Obamicon project: In this project we used a picture from Obama's campaign and created a code that changed another picture to have the same color effect. </li>
+		<li> <img 
+		src ="WIN_20160802_11_22_54_Pro.jpg" alt="Picture of the obamified bernie photo ">  </li>
+        <li>Robot Dance: This was one of the projects in which we programmed actual robots. We used code to make the robot move in different directions and we timed it to follow the beat of a song.
+		<img 
+		src ="WIN_20160802_12_23_53_Pro.jpg" alt="picture of a robot we used for the dance ">
+		</li>
+         <li>Mad Libs: This was one of the simpler projects, but it was really fun to create and play. I used a lot of variables to make this game, and when playing it I got some funny results. 
+			
+		 <img 
+		src ="libsgamepic.PNG" alt="picture of a mad libs code when it ran. ">
+		 </li>
+		 
+		 </ul>
+		</p>
+		 <iframe width="560" height="315" src="https://www.youtube.com/embed/GKLjkH31DYA" frameborder="0" allowfullscreen></iframe>
+		<img id="bye"  src="http://4.bp.blogspot.com/-Wb8WVOGUJK4/UGEsr9IJfeI/AAAAAAAABg8/QGLm4D285fI/s1600/Saying_bye_smiley_face.jpg" 
+		onmouseover="picover()" onmouseout="changebc()">
+		</div>
+		<style>
+ #map {
+   width: 50%;
+   height: 400px;
+   background-color: grey;
+     position:relative;
+     top:200px;
+	 right:-200px;
+ }
+</style>
+       <div id="map"> </div>
+		<script>
+
+function initMap() {
+  var myLatLng = {lat: 40.668962, lng: -73.941782};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 14,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+   var image = 'http://icons.veryicon.com/32/Object/Construction%202/House.png';
+  var beachMarker = new google.maps.Marker({
+    position: {lat: 40.668962, lng: -73.941782},
+    map: map,
+    icon: image
+  });
+} 
+
+
+          </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCESETMosVzNJEdmXlzicFmCjh6NrjUxQg&callback=initMap">
+          </script>
+		
+
+	</body>
+</html>
