@@ -1,0 +1,66 @@
+#pop1{
+font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+color:red;
+position:relative;
+top:-50px;
+left:20px;
+
+}
+#pop{
+color:grey;
+position:relative;
+left:-10px;
+font-size:200%;
+}
+#propimg{
+    /*border-radius: 50%*/
+	 -webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
+    filter: grayscale(50%);
+	 width: 20%;
+	 z-index: -1;}
+#examples { 
+/*background-color: #cce6ff;*/
+font-size:250%;
+color: Maroon ;
+text-align:center;
+font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+}
+
+#ulone{
+	color:red;
+    position: fixed;
+    top: 1px;
+    right: 16px;
+    width: 850px;
+	height:60px;
+    /*border: 3px solid #999966;*/
+	background-color:white ;
+	font-family: Papyrus,fantasy;
+	 z-index: 1;
+	 font-size:70%;
+}
+#changa{
+font-size:250%;
+color: Maroon ;
+}
+h6{
+font-size:100%;
+
+}
+h4{
+font-size:300%;
+text-align:center;
+}
+#carousel-example-generic{
+width:250px;
+}
+#p9{
+font-size:250%;
+color:Maroon ;
+}
+#end{
+position:relative;
+top:800;
+font-size:150%;
+color:black ;
+}
